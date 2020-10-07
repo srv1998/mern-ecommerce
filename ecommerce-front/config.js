@@ -1,0 +1,2 @@
+export const URL=process.env.REACT_APP_API_URL;
+export const GOOGLE_CLIENT_ID=1087016811714-l52riif5mfod74pash2g0j9i111nbnbd.apps.googleusercontent.com

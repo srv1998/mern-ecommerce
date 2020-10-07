@@ -1,0 +1,348 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+ .btn,
+ .jumbotron,
+ .nav :hover {
+     border-radius: 0px;
+ }
+ 
+ 
+ .name {
+     background: rgb(2, 0, 128);
+     color: white;
+     font-weight: bold;
+     font-style: italic;
+ }
+ 
+ .product-img {
+     min-height: 100px;
+ }
+ 
+ .jumbotron h2 {
+     margin-top: -20px;
+ }
+ .cart-count{
+     border-radius: 25%;
+     background-color: rgb(233, 34, 200);
+     color: black;
+     font-weight:bold ;
+ }
+ .wish-count{
+    border-radius: 25%;
+    background-color: rgb(34, 233, 51);
+    color: black;
+    font-weight:bold ;
+}
+ @media only screen and (max-width: 600px) {
+     .jumbotron h2 {
+         margin-top: 10px;
+     }
+ }
+ 
+ 
+ 
+ .jumbotron {
+     height: 180px;
+     color: #fff;
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #060707, #23d5ab);
+     background-size: 400% 400%;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 700;
+     -webkit-animation: Gradient 15s ease infinite;
+     -moz-animation: Gradient 15s ease infinite;
+     animation: Gradient 15s ease infinite;
+ }
+ 
+ @-webkit-keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ @-moz-keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ @keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ .black-10 {
+    background: linear-gradient(rgb(238, 181, 76),rgb(228, 228, 97));
+}
+.price{
+    background-color: rgb(95, 231, 95);
+    font-size: 1em;
+}
+.black-9 {
+    background: linear-gradient(rgb(238, 181, 76),rgb(228, 228, 97));
+}
+.black-8 {
+    background: linear-gradient(rgb(238, 181, 76),rgb(228, 228, 97));
+}
+.black-7 {
+    background: linear-gradient(rgb(238, 181, 76),rgb(228, 228, 97));
+}
+.black-6 {
+    background:linear-gradient(rgb(238, 181, 76),rgb(228, 228, 97));
+}
+.ul{
+    font-weight: bold;
+    color: blanchedalmond;
+    
+}
+
+.ul li:not(.signout){
+    border-left: 2px solid rgb(164, 172, 177);
+    
+}
+.searchForm{
+    background: cornflowerblue;
+}
+.home{
+    background:rgb(194, 11, 194)
+}
+.slide {
+    position: relative;
+  }
+  
+  .slide__caption {
+    bottom: 0;
+    min-height: 80px;
+    left: 50;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+ .homeTitle{
+     text-align: center;
+     background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 700;
+ } 
+ .homeDesc{
+     text-align: center;
+     background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))
+ }
+ .jumbotron{
+    height:auto;
+    padding:15px 15px !important;
+    padding-top: 25px !important;
+    padding-bottom: 10px !important;
+    margin-top: 0px;
+
+    }
+ .sinForm{
+    background:rgb(80, 82, 81);
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 5px 5px #888888;
+     color:rgba(255, 255, 255, 0.781);
+ } 
+ .signout{
+    position: absolute;
+    right:30px;
+    margin-top: 5px;
+    font-size: 1.2em;
+    border:none;
+    
+}
+.supForm{
+    background:rgb(80, 82, 81);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #38373727;
+    color:rgba(255, 255, 255, 0.781);
+}
+.shoprow{
+    background: rgba(128, 128, 128, 0.384);
+    margin-top:-31px;
+    padding-top: 10px;
+}
+
+
+.shoprow .col9{
+    background: url(/images/bgHome.jpg);
+    border-radius: 10px;
+}
+.shopCat{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:8px;
+    line-height: 2em;
+    margin-bottom: 20px;
+    background: url(/images/bgHome.jpg);
+    box-shadow: 5px 5px #888888;
+}
+.shopPrice{
+    border:1px solid black;
+    padding:10px;
+    line-height: 2em;
+    background: url(/images/bgHome.jpg);
+    box-shadow: 5px 5px #888888;
+    border-radius: 10px;
+}
+.radio{
+background: linear-gradient(to left, rgba(255,0,0,0), rgb(65, 202, 47));
+}
+
+.newArrived, .mostPopular{
+    background:rgb(194, 11, 194);
+   
+    
+}
+
+.adminInfo{
+    background: darkcyan;
+    
+}
+.adminInfo ul{
+    border-radius: 5px;
+}
+.adminCard{
+    background: darkcyan;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.adminCard ul li{
+    background-color:lightgray ;
+}
+.updateProduct{
+    margin-top: -31px;
+    background-color: rgb(250, 215, 170);
+    padding-top: 20px;
+    height: 100%;
+
+}
+.updateProductForm{
+   
+    padding: 10px;
+    background: rgb(134, 96, 45);
+   
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color:rgba(255, 255, 255, 0.781);
+    
+}
+.updateProductForm Button{
+    width:100%;
+    background-color: rgba(99, 22, 22, 0.637);
+    border-radius:inherit ;
+    border:0.5px solid black;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.cart{
+    background-color: rgba(128, 128, 128, 0.384);
+    
+}
+.wishList{
+    background-color: rgba(128, 128, 128, 0.384);
+}
+.catForm{
+    background:rgb(80, 82, 81);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #38373727;
+    color:rgba(255, 255, 255, 0.781);
+}
+.catForm button{
+    width: 100%;
+    
+}
+.createProduct{
+    background:darkcyan;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #38373727;
+    color:rgba(255, 255, 255, 0.781);
+}
+.createProduct Button{
+    width: 100%;
+}
+.orderForm{
+     border:1px solid black;
+    padding: 10px;
+    background: rgb(133, 96, 48);
+    box-shadow: 5px 5px #888888;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.userInfo,.userLinks,.userHistory{
+    background:darkcyan;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(61, 60, 60);
+}
+
+.updateUser{
+    background-color:rgba(128, 128, 128, 0.384); 
+}
+.updateUserForm{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(61, 60, 60);
+    color: rgba(255, 255, 255, 0.781);
+    
+}
+.updateUserForm Button{
+    width: 100%;
+    font-size: 1.2em;
+    color:rgba(255, 255, 255, 0.781);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.signName{
+    position: absolute;
+    right:130px;
+    margin-top: 12px;
+    font-size: 0.9em;
+    border:none;
+}
+.productBox{
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.781) ;
+}
+.productShow{
+    background-color: rgb(173, 82, 173);
+}
+.product{
+   
+   
+    border-right: 2px solid black;
+}
+
+.descProduct .input-group{
+    
+    margin-bottom: 20px;
+}
